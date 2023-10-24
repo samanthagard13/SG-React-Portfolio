@@ -1,0 +1,55 @@
+.background {
+  background-image: url('/images/background2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  width: 250px;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.navbar-toggler-icon {
+  border: none;
+}
+
+.photo {
+  border-radius: 20px;
+  border-color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex-grow: 1;
+  flex-basis: 200;
+}
+
+.contact-btn {
+  background-color:  #512984;
+  border-radius: 20px;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
