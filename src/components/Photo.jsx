@@ -5,8 +5,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function Photo() {
     return (
-        <div className="photo">
-            <img class="border photo" width="200" src="/images/new-photo.jpg"></img>
+        <div className="w-75 p-4 photo">
+            <img className="border photo" width="200" src="/images/new-photo.jpg"></img>
         </div>
     )
 };

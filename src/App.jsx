@@ -11,7 +11,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 function App() {
   
 return (
-  <div>
+
+  <div className="conatiner justify-content-center align-items-center">
 
   <NavBar />
 
@@ -21,11 +22,11 @@ return (
 
   <Projects />
 
-<footer class="">
+
   <Footer/>
-</footer>
 
   </div>
+
   )
 }
 

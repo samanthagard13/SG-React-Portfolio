@@ -4,16 +4,17 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function Footer() {
     return (
-        <div>
-            <h2>Contact Me</h2>
+        <div className="w-75">
+            <h2 className="display-6">Contact Me</h2>
             <ul>
-                <li>I am currently working towards a position in the Web design and development field.</li>
+                <li>Currently Working Towards A Position In The Web Design And Development Field</li>
                 <li>
-                    <button class="contact-btn">Send Me A Message!</button>
+                    <a href="mailto:samantha.gard13@gmail.com"><button className="contact-btn m-2">Send Me A Message!</button></a>
                 </li>
             </ul>
         </div>
-    )
-};
+    );
+}
+
 
 export default Footer;
