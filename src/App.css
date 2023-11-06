@@ -1,4 +1,4 @@
-.background {
+body {
   background-image: url('/images/background2.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -7,8 +7,6 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
 
 .logo {

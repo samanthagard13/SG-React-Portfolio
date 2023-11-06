@@ -4,7 +4,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function Footer() {
     return (
-        <div className="w-75">
+        <div>
             <h2 className="display-6">Contact Me</h2>
             <ul>
                 <li>Currently Working Towards A Position In The Web Design And Development Field</li>

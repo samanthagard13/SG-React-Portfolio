@@ -4,7 +4,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function AboutMe() {
     return (
-        <div className="w-75 p-2">
+        <div>
+            <img className="border photo" width="200" src="/images/new-photo.jpg"></img>
                 <p>Transitioning from the restaurant industry to full-stack
             development, I've decided to explore a new path that allows me to
             integrate my passion for design and art with the endless world of

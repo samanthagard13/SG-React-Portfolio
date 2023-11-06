@@ -29,7 +29,14 @@ function NavBar() {
               className="nav-link"
               target="blank"
               href="https://github.com/samanthagard13"
-            >GitHub</a>
+            ><i className='fab fa-github'></i></a>
+          </li>
+          <li className="nav-item">
+            <a
+              className="nav-link"
+              target="blank"
+              href="https://www.linkedin.com/in/samantha-gard-47599b269"
+            ><i className='fab fa-linkedin'></i></a>
           </li>
           <li className="nav-item">
             <a
@@ -37,13 +44,6 @@ function NavBar() {
               target="blank"
               href="https://docs.google.com/document/d/1JIaw8u_5AKz1DxoVVX4aDPMrclz10sqJNAM1qPkprvY/edit?usp=sharing"
             >Resume</a>
-          </li>
-          <li className="nav-item">
-            <a
-              className="nav-link"
-              target="blank"
-              href="https://www.linkedin.com/in/samantha-gard-47599b269"
-            >LinkedIn</a>
           </li>
           </ul>
       </div>

@@ -4,7 +4,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function Projects() {
     return (
-        <div className="w-75">
+        <div className='w-75'>
            <h2 className="display-6 p-1">Highlighted Projects</h2>
            <div className="project-list">
                 <ul className="container justify-content-center">
