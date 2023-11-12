@@ -3,7 +3,7 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 
 function AboutMe() {
   return (
-    <Container className="text-center about">
+    <Container style={{marginTop: "2em"}} className="text-center about">
       <Row>
         <Col xs lg="6">
           <Image
