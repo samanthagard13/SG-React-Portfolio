@@ -1,17 +1,28 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'; 
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
 function Skills() {
-    return (
-    <div className='icon-list'>
-        <a><i className='fab fa-html5'></i></a>
-        <a><i className='fab fa-css3'></i></a>
-        <a><i className='fab fa-bootstrap'></i></a>
-        <a><i className='fab fa-js'></i></a>
-        <a><i className='fab fa-node-js'></i></a>
-    </div>
-    )
+  return (
+    <Container style={{margin: "2em"}} className="d-flex justify-content-center align-items-center">
+      <Row>
+        <Col>
+          <i className='fab fa-html5' alt='HTML5'></i>
+        </Col>
+        <Col>
+          <i className='fab fa-css3' alt='CSS3'></i>
+        </Col>
+        <Col>
+          <i className='fab fa-bootstrap' alt='Bootstrap'></i>
+        </Col>
+        <Col>
+          <i className='fab fa-js' alt='JavaScript'></i>
+        </Col>
+        <Col>
+          <i className='fab fa-node-js' alt='Node.js'></i>
+        </Col>
+      </Row>
+    </Container>
+  );
 }
 
 export default Skills;

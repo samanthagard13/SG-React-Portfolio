@@ -1,56 +1,31 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'; 
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import React from "react";
+import { Navbar, Container, Nav } from "react-bootstrap";
 
 function NavBar() {
-    return (
-      
-      <nav className="navbar navbar-expand-lg mt-5">
-      <a className="navbar-brand" href="/"><img
-          className="logo"
-          src="./images/SamanthaG-purple.png"
-          alt="Samantha Gard"
-        /></a>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <a
-              className="nav-link"
-              target="blank"
-              href="https://github.com/samanthagard13"
-            ><i className='fab fa-github'></i></a>
-          </li>
-          <li className="nav-item">
-            <a
-              className="nav-link"
-              target="blank"
-              href="https://www.linkedin.com/in/samantha-gard-47599b269"
-            ><i className='fab fa-linkedin'></i></a>
-          </li>
-          <li className="nav-item">
-            <a
-              className="nav-link"
-              target="blank"
-              href="https://docs.google.com/document/d/1JIaw8u_5AKz1DxoVVX4aDPMrclz10sqJNAM1qPkprvY/edit?usp=sharing"
-            >Resume</a>
-          </li>
-          </ul>
-      </div>
-      </nav>
-      
+  return (
+    <Navbar>
+      <Container>
+        <Navbar.Brand href="#home">
+          <img src="./images/SamanthaG-purple.png" alt="Samantha Gard" />
+        </Navbar.Brand>
 
-        )
-    };
-    
-    export default NavBar;
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+          <Nav>
+            <Nav.Link target="_blank" href="https://github.com/samanthagard13">
+              <i className="fab fa-github"></i>
+            </Nav.Link>
+            <Nav.Link target="_blank" href="https://www.linkedin.com/in/samantha-gard-47599b269">
+              <i className="fab fa-linkedin"></i>
+            </Nav.Link>
+            <Nav.Link style={{margin: "2em"}} target="_blank" href="https://docs.google.com/document/d/1JIaw8u_5AKz1DxoVVX4aDPMrclz10sqJNAM1qPkprvY/edit?usp=sharing">
+              Resume
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+}
+
+export default NavBar;
