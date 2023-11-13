@@ -32,15 +32,28 @@ ul {
 }
 
 .project-link {
-  font-size: 2em;
   background-color: rgb(81, 81, 81);
+  opacity: 90%;
   color: white;
+  font-size: 2em;
   padding: .5em;
   border-radius: .5em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.carousel-indicators {
-  color: black;
+.carousel-caption {
+  margin-bottom: 10em;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: black;
+  border-radius: .5em;
+
+}
+
+.contact-btn {
+  border-radius: .5em;
 }
 
 
