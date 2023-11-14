@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "root": "dist/",
     "start": "react-scripts start",
     "dev": "vite",
     "build": "vite build",
@@ -17,7 +16,8 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.1",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "webpack": "^5.89.0"
   },
   "engines": {
     "node": "14.x",
