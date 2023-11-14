@@ -6,7 +6,7 @@ function NavBar() {
     <Navbar>
       <Container>
         <Navbar.Brand href="#home">
-          <img src="./images/SamanthaG-purple.png" alt="Samantha Gard" />
+          <img src="./images/SamanthaG-purple.png" alt="Samantha Gard"  />
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
