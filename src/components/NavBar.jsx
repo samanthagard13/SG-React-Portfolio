@@ -3,10 +3,10 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 
 function NavBar() {
   return (
-    <Navbar>
+    <Navbar expand="lg" collapseOnSelect>
       <Container>
-        <Navbar.Brand href="#home">
-          <img src="./images/SamanthaG-purple.png" alt="Samantha Gard"  />
+        <Navbar.Brand style={{marginLeft: "1em"}}>
+          <img src="./images/SamanthaG-purple.png" className="logo-img" alt="Samantha Gard"  />
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

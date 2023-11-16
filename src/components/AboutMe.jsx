@@ -5,8 +5,8 @@ function AboutMe() {
   return (
     <Container style={{ marginTop: "2em" }} className="text-center about">
       <Row>
-        <Col xs={12} lg={{ span: 6, order: 2 }} className="order-lg-1">
-          <p style={{ margin: "2em" }}>
+        <Col xs={12} lg={{ span: 7, order: 1 }} className="order-lg-1">
+          <p style={{ margin: "1em" }}>
             Transitioning from the restaurant industry to full-stack
             development, I've decided to explore a new path that allows me to
             integrate my passion for design and art with the endless world of
@@ -18,9 +18,10 @@ function AboutMe() {
             technology, coding, and creative problem-solving.
           </p>
         </Col>
-        <Col xs={12} lg={{ span: 6, order: 1 }} className="order-lg-2">
+        <Col xs={12} lg={{ span: 5, order: 2 }} className="order-lg-2">
           <Image
-            src="/images/new-photo.jpg"
+            className="Photo"
+            src="/images/Headshot.jpg"
             alt="Photo"
             rounded
             style={{ maxWidth: "100%", height: "auto" }}

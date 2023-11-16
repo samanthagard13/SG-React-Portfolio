@@ -3,7 +3,7 @@ import { Container, Carousel, Button } from "react-bootstrap";
 
 function Projects() {
   return (
-    <Container className="d-flex justify-content-center align-items-center">
+    <Container className="d-flex justify-content-center align-items-center carousel">
     <Carousel>
       <Carousel.Item>
         <img src="/images/tech-screenshot.png"></img>

@@ -9,12 +9,20 @@ body {
   font-family: Quicksand;
 }
 
+.navbar-nav {
+  margin-right: 2em;
+}
+
 nav {
   margin-top: 1.5em;
 }
 
 .about {
   margin-top: 1.5em;
+}
+
+p {
+  padding: 30px;
 }
 
 i {
@@ -35,14 +43,13 @@ ul {
   background-color: rgb(81, 81, 81);
   opacity: 90%;
   color: white;
-  font-size: 2em;
+  font-size: 1.5em;
   padding: .5em;
-  border-radius: .5em;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: .25em;
 }
 
 .carousel-caption {
-  margin-bottom: 10em;
+  margin-bottom:10em;
 }
 
 .carousel-control-next-icon,
@@ -52,8 +59,67 @@ ul {
 
 }
 
-.contact-btn {
-  border-radius: .5em;
+.contact-btn.btn.btn-primary {
+  font-size: 1.5em;
+  background-color: rgb(81, 81, 81);
+  border: none;
+  padding: 1em;
+  margin: 1em;
 }
 
+@media (max-width: 780px) {
 
+  .logo-img {
+    width: 20em;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 1em;
+  }
+
+  p {
+    padding-left: 2em;
+  }
+
+  i {
+    font-size: 2em;
+  }
+
+  .carousel {
+    width: 700px;
+  }
+
+  .project-link {
+    font-size: 1em;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .logo-img {
+    width: 20em;
+  }
+
+  p {
+    padding-left: 2em;
+  }
+
+  .Photo {
+    width: 300px;
+    margin-left: 40px;
+  }
+  
+ i {
+  font-size: 2em;
+ }
+
+ .contact-btn.btn.btn-primary {
+  font-size: 1em;
+  background-color: rgb(81, 81, 81);
+  border: none;
+  padding: 1em;
+  margin: 1em;
+}
+
+}
