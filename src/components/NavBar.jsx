@@ -18,7 +18,7 @@ function NavBar() {
             <Nav.Link target="_blank" href="https://www.linkedin.com/in/samantha-gard-47599b269">
               <i className="fab fa-linkedin"></i>
             </Nav.Link>
-            <Nav.Link style={{margin: "2em"}} target="_blank" href="https://docs.google.com/document/d/1JIaw8u_5AKz1DxoVVX4aDPMrclz10sqJNAM1qPkprvY/edit?usp=sharing">
+            <Nav.Link className="resume-btn" style={{margin: "2em"}} target="_blank" href="https://docs.google.com/document/d/1JIaw8u_5AKz1DxoVVX4aDPMrclz10sqJNAM1qPkprvY/edit?usp=sharing">
               Resume
             </Nav.Link>
           </Nav>

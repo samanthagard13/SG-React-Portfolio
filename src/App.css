@@ -2,6 +2,7 @@ body {
   background-image: url('/images/background2.png');
   background-size: cover;
   background-repeat: no-repeat;
+  margin: 0;
 }
 
 #root {
@@ -15,6 +16,10 @@ body {
 
 nav {
   margin-top: 1.5em;
+}
+
+a.resume-btn.nav-link {
+  font-size: larger;
 }
 
 .about {
@@ -48,8 +53,8 @@ ul {
   border-radius: .25em;
 }
 
-.carousel-caption {
-  margin-bottom:10em;
+.project-link:hover {
+  color: #58249c;
 }
 
 .carousel-control-next-icon,

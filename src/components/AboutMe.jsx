@@ -21,7 +21,7 @@ function AboutMe() {
         <Col xs={12} lg={{ span: 5, order: 2 }} className="order-lg-2">
           <Image
             className="Photo"
-            src="/images/Headshot.jpg"
+            src="/images/black-white.jpg"
             alt="Photo"
             rounded
             style={{ maxWidth: "100%", height: "auto" }}

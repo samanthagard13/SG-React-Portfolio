@@ -6,7 +6,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 function Photo() {
     return (
         <div className="w-75 p-4 photo">
-            <img width="200" src="/images/new-photo.jpg"></img>
+            <img width="200" src="/images/"></img>
         </div>
     )
 };
