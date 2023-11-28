@@ -6,11 +6,11 @@ function Projects() {
     <Container className="d-flex justify-content-center align-items-center carousel">
     <Carousel>
       <Carousel.Item>
-        <img src="/images/tech-screenshot.png"></img>
+        <img src="/images/todo.png"></img>
         <Carousel.Caption>
           <div>
-          <a href="https://vast-oasis-81942-69906b12dced.herokuapp.com/" target="_blank" className="project-link">Tech Blog</a>
-          <a href="https://github.com/samanthagard13/tech-blog" target="_blank"><i className="fab fa-github"></i></a>
+          <a href="https://to-do-drab-chi.vercel.app/" target="_blank" className="project-link">To Do List</a>
+          <a href="https://github.com/samanthagard13/To-Do" target="_blank"><i className="fab fa-github"></i></a>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
