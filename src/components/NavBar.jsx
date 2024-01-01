@@ -1,30 +1,106 @@
-import React from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import React, { useState } from "react";
+import { Navbar, Container, Nav, Offcanvas } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function NavBar() {
-  return (
-    <Navbar expand="lg" collapseOnSelect>
-      <Container>
-        <Navbar.Brand style={{marginLeft: "1em"}}>
-          <img src="./images/SamanthaG-purple.png" className="logo-img" alt="Samantha Gard"  />
-        </Navbar.Brand>
+  const [showOffcanvas, setShowOffcanvas] = useState(false);
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-          <Nav>
-            <Nav.Link target="_blank" href="https://github.com/samanthagard13">
-              <i className="fab fa-github"></i>
+  const handleOffcanvasToggle = () => setShowOffcanvas((prevShow) => !prevShow);
+
+  return (
+    <div>
+      <Navbar expand="lg">
+        <Container fluid>
+          <Navbar.Brand style={{ marginLeft: "1em" }}>
+            <Link to="/">
+              <img
+                src="./images/SamanthaG-purple.png"
+                className="logo-img"
+                alt="Samantha Gard"
+              />
+            </Link>
+          </Navbar.Brand>
+
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            onClick={handleOffcanvasToggle}
+          />
+
+          {showOffcanvas ? null : (
+            <Navbar.Collapse className="justify-content-end">
+              <Nav className="mr-auto">
+                <Nav.Link
+                  className="nav-btn"
+                  target="_blank"
+                  href="https://github.com/samanthagard13"
+                >
+                  <i className="fab fa-github"></i> GitHub
+                </Nav.Link>
+                <Nav.Link
+                  className="nav-btn"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/samantha-gard-47599b269"
+                >
+                  <i className="fab fa-linkedin"></i> LinkedIn
+                </Nav.Link>
+                <Nav.Link
+                  className="nav-btn"
+                  target="_blank"
+                  href="https://docs.google.com/document/d/1JIaw8u_5AKz1DxoVVX4aDPMrclz10sqJNAM1qPkprvY/edit?usp=sharing"
+                >
+                  <i className="fa-solid fa-file"></i> Resume
+                </Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          )}
+        </Container>
+      </Navbar>
+
+      <Offcanvas
+        show={showOffcanvas}
+        onHide={handleOffcanvasToggle}
+        placement="end"
+      >
+        <Offcanvas.Header closeButton></Offcanvas.Header>
+        <Offcanvas.Body>
+          <Nav className="flex-column">
+            <Nav.Link
+              className="nav-btn"
+              target="_blank"
+              href="https://github.com/samanthagard13"
+            >
+              <i className="fab fa-github"></i> GitHub
             </Nav.Link>
-            <Nav.Link target="_blank" href="https://www.linkedin.com/in/samantha-gard-47599b269">
-              <i className="fab fa-linkedin"></i>
+            <Nav.Link
+              className="nav-btn"
+              target="_blank"
+              href="https://www.linkedin.com/in/samantha-gard-47599b269"
+            >
+              <i className="fab fa-linkedin"></i> LinkedIn
             </Nav.Link>
-            <Nav.Link className="resume-btn" style={{margin: "2em"}} target="_blank" href="https://docs.google.com/document/d/1JIaw8u_5AKz1DxoVVX4aDPMrclz10sqJNAM1qPkprvY/edit?usp=sharing">
-              Resume
+            <Nav.Link
+              className="nav-btn"
+              target="_blank"
+              href="https://docs.google.com/document/d/1JIaw8u_5AKz1DxoVVX4aDPMrclz10sqJNAM1qPkprvY/edit?usp=sharing"
+            >
+              <i className="fa-solid fa-file"></i> Resume
+            </Nav.Link>
+            <Nav.Link>
+              <Link to="/web">Web Development</Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link to="/threed">Digital Creations</Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link to="/contact">Contact Me</Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link to="/about">About Me</Link>
             </Nav.Link>
           </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+        </Offcanvas.Body>
+      </Offcanvas>
+    </div>
   );
 }
 

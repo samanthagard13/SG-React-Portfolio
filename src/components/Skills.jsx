@@ -7,7 +7,7 @@ function Skills() {
   );
 
   return (
-    <Container style={{ margin: "2em" }} className="d-flex justify-content-center align-items-center skills">
+    <Container style={{fontSize: "xx-large", padding: "1em"}} className="text-center">
       <Row>
         <Col>
           <OverlayTrigger placement="bottom" overlay={renderTooltip("HTML5")}>
@@ -32,6 +32,11 @@ function Skills() {
         <Col>
           <OverlayTrigger placement="bottom" overlay={renderTooltip("Node.js")}>
             <i className='fab fa-node-js'></i>
+          </OverlayTrigger>
+        </Col>
+        <Col>
+          <OverlayTrigger placement="bottom" overlay={renderTooltip("React")}>
+            <i className='fab fa-react'></i>
           </OverlayTrigger>
         </Col>
         <Col>
