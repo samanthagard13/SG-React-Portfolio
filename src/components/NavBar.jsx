@@ -91,9 +91,9 @@ function NavBar() {
             <Nav.Link>
               <Link to="/threed">Digital Creations</Link>
             </Nav.Link>
-            <Nav.Link>
+            {/* <Nav.Link>
               <Link to="/contact">Contact Me</Link>
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link>
               <Link to="/about">About Me</Link>
             </Nav.Link>

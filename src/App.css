@@ -82,7 +82,7 @@ ul {
 
 /* Web Dev */
 
-.card {
+.web-card {
   background: none;
   border: none;
   height: 500px;
@@ -98,6 +98,27 @@ ul {
 
 .project-link {
   border-bottom: 1px solid black;
+}
+
+/*  */
+
+/* 3d page */
+
+.threed-card.card {
+  background: none;
+  border: none;
+  height: auto;
+}
+
+.art-img {
+  width: 650px;
+  height: 325px;
+  margin: auto;
+  margin-top: 1em;
+}
+
+.card-title {
+  padding: 5px;
 }
 
 /*  */

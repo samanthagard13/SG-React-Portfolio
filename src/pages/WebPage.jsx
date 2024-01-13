@@ -12,8 +12,8 @@ function WebPage() {
         <Image src="/images/webpage.png" />
 
         <Row>
-          <Col>
-            <Card>
+          <Col xl={6} lg={12}>
+            <Card className="web-card">
               <Card.Img src="/images/todo.png" className="web-img"/>
               <Card.Title>To Do List</Card.Title>
               <Card.Text>
@@ -38,12 +38,12 @@ function WebPage() {
               </Card.Text>
             </Card>
           </Col>
-          <Col>
-            <Card>
+          <Col xl={6} lg={12}>
+            <Card className="web-card">
               <Card.Img src="/images/cravings.png"  className="web-img"/>
               <Card.Title>Handmade Cravings</Card.Title>
               <Card.Text>
-                Recipe blog page for all kinds of food and drinks
+                Recipe blog page for all kinds of food and drinks (in progress)
               </Card.Text>
               <Card.Text>HTML CSS Bootstrap React MongoDB</Card.Text>
               <Card.Text>
@@ -64,13 +64,13 @@ function WebPage() {
               </Card.Text>
             </Card>
           </Col>
-          <Col>
-            <Card>
+          <Col xl={6} lg={12}>
+            <Card className="web-card">
               <Card.Img src="/images/shaker-square.png"  className="web-img"/>
               <Card.Title>Shaker</Card.Title>
               <Card.Text>
                 App for Cocktail recipes with many search options. Make an
-                account to save recipes.
+                account to save recipes. (in progress)
               </Card.Text>
               <Card.Text>HTML CSS Bootstrap React restAPI</Card.Text>
               <Card.Text>
@@ -91,11 +91,9 @@ function WebPage() {
               </Card.Text>
             </Card>
           </Col>
-        </Row>
-
-        <Row>
-          <Col>
-            <Card>
+        
+          <Col xl={6} lg={12}>
+            <Card className="web-card">
               <Card.Img src="/images/react-example.png"  className="web-img"/>
               <Card.Title>React Portfolio</Card.Title>
               <Card.Text>Jane Doe portfolio example</Card.Text>
@@ -118,8 +116,8 @@ function WebPage() {
               </Card.Text>
             </Card>
           </Col>
-          <Col>
-            <Card>
+          <Col xl={6} lg={12}>
+            <Card className="web-card">
               <Card.Img src="/images/Headline-screenshot.png"  className="web-img"/>
               <Card.Title>Headline Report</Card.Title>
               <Card.Text>
@@ -144,8 +142,8 @@ function WebPage() {
               </Card.Text>
             </Card>
           </Col>
-          <Col>
-            <Card>
+          <Col xl={6} lg={12}>
+            <Card className="web-card">
               <Card.Img src="/images/tech-screenshot.png"  className="web-img"/>
               <Card.Title>Tech Blog</Card.Title>
               <Card.Text>
