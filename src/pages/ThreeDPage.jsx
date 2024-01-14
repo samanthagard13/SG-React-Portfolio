@@ -32,6 +32,7 @@ function ThreeDPage() {
           <Col></Col>
           <Col></Col>
         </Row>
+        <Footer/>
       </Container>
     </>
   );
