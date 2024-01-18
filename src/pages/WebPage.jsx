@@ -39,22 +39,22 @@ function WebPage() {
             </Card>
           </Col>
           <Col xl={6} lg={12}>
-            <Card className="web-card">
-              <Card.Img src="/images/cravings.png"  className="web-img"/>
-              <Card.Title>Handmade Cravings</Card.Title>
+          <Card className="web-card">
+              <Card.Img src="/images/Headline-screenshot.png"  className="web-img"/>
+              <Card.Title>Headline Report</Card.Title>
               <Card.Text>
-                Recipe blog page for all kinds of food and drinks (in progress)
+                Group project created to search and save news articles.
               </Card.Text>
-              <Card.Text>HTML CSS Bootstrap React MongoDB</Card.Text>
+              <Card.Text>HTML CSS Node.js Express Graphql Mongoose</Card.Text>
               <Card.Text>
               <a
-                  href="https://github.com/samanthagard13/Handmade-Cravings"
+                  href="https://github.com/eddyK15501/headline-report"
                   target="_blank"
                 >
                   <i className="fab fa-github"></i>
                 </a>
                 <a
-                  href="https://handmade-cravings.vercel.app/"
+                  href="https://eddyk15501-headline-report-3d1644b4d160.herokuapp.com/"
                   target="_blank"
                   className="project-link"
                 >
@@ -63,6 +63,7 @@ function WebPage() {
                 
               </Card.Text>
             </Card>
+            
           </Col>
           <Col xl={6} lg={12}>
             <Card className="web-card">
@@ -117,22 +118,22 @@ function WebPage() {
             </Card>
           </Col>
           <Col xl={6} lg={12}>
-            <Card className="web-card">
-              <Card.Img src="/images/Headline-screenshot.png"  className="web-img"/>
-              <Card.Title>Headline Report</Card.Title>
+          <Card className="web-card">
+              <Card.Img src="/images/cravings.png"  className="web-img"/>
+              <Card.Title>Handmade Cravings</Card.Title>
               <Card.Text>
-                Group project created to search and save news articles.
+                Recipe blog page for all kinds of food and drinks (in progress)
               </Card.Text>
-              <Card.Text>HTML CSS Node.js Express Graphql Mongoose</Card.Text>
+              <Card.Text>HTML CSS Bootstrap React MongoDB</Card.Text>
               <Card.Text>
               <a
-                  href="https://github.com/eddyK15501/headline-report"
+                  href="https://github.com/samanthagard13/Handmade-Cravings"
                   target="_blank"
                 >
                   <i className="fab fa-github"></i>
                 </a>
                 <a
-                  href="https://eddyk15501-headline-report-3d1644b4d160.herokuapp.com/"
+                  href="https://handmade-cravings.vercel.app/"
                   target="_blank"
                   className="project-link"
                 >
