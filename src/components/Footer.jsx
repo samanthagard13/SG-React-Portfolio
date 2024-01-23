@@ -7,21 +7,29 @@ function Footer() {
       <Container>
         <Nav className="d-flex align-items-center justify-content-center">
           <Nav.Link
-          className="footer-icon"
+            className="footer-icon"
             target="_blank"
             href="https://github.com/samanthagard13"
           >
             <i className="fab fa-github"></i>
           </Nav.Link>
           <Nav.Link
-          className="footer-icon"
+            className="footer-icon"
             target="_blank"
             href="https://www.linkedin.com/in/samantha-gard-47599b269"
           >
             <i className="fab fa-linkedin"></i>
           </Nav.Link>
           <Nav.Link
-          className="footer-icon"
+            className="footer-icon"
+            target="_blank"
+            href="mailto:samantha.gard13@gmail.com"
+          >
+            <i className="fa-solid fa-envelope"></i>
+          </Nav.Link>
+
+          <Nav.Link
+            className="footer-icon"
             target="_blank"
             href="https://docs.google.com/document/d/1JIaw8u_5AKz1DxoVVX4aDPMrclz10sqJNAM1qPkprvY/edit?usp=sharing"
           >

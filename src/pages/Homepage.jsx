@@ -31,8 +31,6 @@ function Homepage() {
           </Col>
         </Row>
 
-        <Skills />
-
         <Row>
           <Col xs={12} md={6} lg={6} className="d-flex align-items-center justify-content-center mt-4">
             <WebBtn />
@@ -42,9 +40,9 @@ function Homepage() {
           </Col>
           
         </Row>
-        <Container className="mt-4">
+        {/* <Container className="mt-4">
         <Contact/>
-        </Container>
+        </Container> */}
         
       </Container>
 

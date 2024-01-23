@@ -137,6 +137,17 @@ ul {
 
 /*  */
 
+/* About page */
+
+.about-pic {
+  height: 350px;
+  width: auto;
+  margin: 4em;
+}
+
+
+/*  */
+
 /* Contact Page */
 
 .input-group-text {
@@ -189,6 +200,10 @@ ul {
     width: 250px;
   }
 
+  .footer-icon {
+    font-size: large;
+  }
+
 }
 
 @media (max-width: 450px) {
@@ -198,13 +213,13 @@ ul {
     width: 10em;
   }
 
- 
-  .hey {
-    width: 50%;
-  }
+ .about-p {
+  padding: 0;
+  
+ }
 
   .footer-icon {
-    font-size: large;
+    font-size: medium;
   }
  
 
