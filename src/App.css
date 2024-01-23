@@ -108,6 +108,13 @@ ul {
   background: none;
   border: none;
   height: auto;
+  margin: 1em;
+}
+
+.iso {
+  width: 500px;
+  height: 500px;
+  margin: auto;
 }
 
 .art-img {
@@ -119,6 +126,13 @@ ul {
 
 .card-title {
   padding: 5px;
+  margin-top: 5px;
+}
+
+.gif {
+  height: 325px;
+  width: 325px;
+  margin: auto;
 }
 
 /*  */
