@@ -15,12 +15,12 @@ function WebPage() {
           <Col xl={6} lg={12}>
             <Card className="web-card">
               <Card.Img src="/images/todo.png" className="web-img"/>
-              <Card.Title>To Do List</Card.Title>
+              <Card.Title className="web-title">To Do List</Card.Title>
               <Card.Text>
                 Simple to do list with local storage and the ability to choose
                 from four color modes.
               </Card.Text>
-              <Card.Text>HTML CSS Bootstrap Node.js jQuery Express</Card.Text>
+              <Card.Text>HTML | CSS | Bootstrap | Node.js | jQuery | Express</Card.Text>
               <Card.Text>
                 <a
                   href="https://github.com/samanthagard13/To-Do"
@@ -41,11 +41,11 @@ function WebPage() {
           <Col xl={6} lg={12}>
           <Card className="web-card">
               <Card.Img src="/images/Headline-screenshot.png"  className="web-img"/>
-              <Card.Title>Headline Report</Card.Title>
+              <Card.Title className="web-title">Headline Report</Card.Title>
               <Card.Text>
                 Group project created to search and save news articles.
               </Card.Text>
-              <Card.Text>HTML CSS Node.js Express Graphql Mongoose</Card.Text>
+              <Card.Text>HTML | CSS | Node.js | Express | Graphql | Mongoose</Card.Text>
               <Card.Text>
               <a
                   href="https://github.com/eddyK15501/headline-report"
@@ -68,12 +68,12 @@ function WebPage() {
           <Col xl={6} lg={12}>
             <Card className="web-card">
               <Card.Img src="/images/shaker-square.png"  className="web-img"/>
-              <Card.Title>Shaker</Card.Title>
+              <Card.Title className="web-title">Shaker</Card.Title>
               <Card.Text>
                 App for Cocktail recipes with many search options. Make an
                 account to save recipes. (in progress)
               </Card.Text>
-              <Card.Text>HTML CSS Bootstrap React restAPI</Card.Text>
+              <Card.Text>HTML | CSS | Bootstrap | React | restAPI</Card.Text>
               <Card.Text>
               <a
                   href="https://github.com/samanthagard13/Shaker"
@@ -96,9 +96,9 @@ function WebPage() {
           <Col xl={6} lg={12}>
             <Card className="web-card">
               <Card.Img src="/images/react-example.png"  className="web-img"/>
-              <Card.Title>React Portfolio</Card.Title>
+              <Card.Title className="web-title">React Portfolio</Card.Title>
               <Card.Text>Jane Doe portfolio example</Card.Text>
-              <Card.Text>HTML CSS Bootstrap React</Card.Text>
+              <Card.Text>HTML | CSS | Bootstrap | React</Card.Text>
               <Card.Text>
               <a
                   href="https://github.com/samanthagard13/example-portfolio"
@@ -120,11 +120,11 @@ function WebPage() {
           <Col xl={6} lg={12}>
           <Card className="web-card">
               <Card.Img src="/images/cravings.png"  className="web-img"/>
-              <Card.Title>Handmade Cravings</Card.Title>
+              <Card.Title className="web-title">Handmade Cravings</Card.Title>
               <Card.Text>
                 Recipe blog page for all kinds of food and drinks (in progress)
               </Card.Text>
-              <Card.Text>HTML CSS Bootstrap React MongoDB</Card.Text>
+              <Card.Text>HTML | CSS | Bootstrap | React | MongoDB</Card.Text>
               <Card.Text>
               <a
                   href="https://github.com/samanthagard13/Handmade-Cravings"
@@ -146,13 +146,13 @@ function WebPage() {
           <Col xl={6} lg={12}>
             <Card className="web-card">
               <Card.Img src="/images/tech-screenshot.png"  className="web-img"/>
-              <Card.Title>Tech Blog</Card.Title>
+              <Card.Title className="web-title">Tech Blog</Card.Title>
               <Card.Text>
                 Blog page where you can create an account to post or comment on
                 other blog posts
               </Card.Text>
               <Card.Text>
-                HTML CSS Express Handlebars jQuery mySQL Sequelize
+                HTML | CSS | Express | Handlebars | jQuery | mySQL | Sequelize
               </Card.Text>
               <Card.Text>
                 {" "}

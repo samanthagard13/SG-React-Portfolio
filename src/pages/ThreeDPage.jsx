@@ -12,8 +12,20 @@ function ThreeDPage() {
         <Image src="/images/noarrow-3d.png" />
         <h2>Blender</h2>
         <Row>
-          
-        
+        <Col>
+            <Card className="threed-card">
+              <Card.Img src="/images/iso-bedroom.png" className="iso"/>
+              <Card.Title>Isometric Bedroom</Card.Title>
+            </Card>
+          </Col>
+          <Col>
+            <Card className="threed-card">
+              <Card.Img src="/images/matte-kitchen2.png" className="iso"/>
+              <Card.Title>Isometric Kitchen</Card.Title>
+            </Card>
+          </Col>
+        </Row>
+        <Row>
           <Col>
             <Card className="threed-card">
               <Card.Img
@@ -32,13 +44,9 @@ function ThreeDPage() {
               <Card.Title>Futuristic Studio Apartment 360</Card.Title>
             </Card>
           </Col>
-          <Col>
-            <Card className="threed-card">
-              <Card.Img src="/images/iso-bedroom.png" className="iso"/>
-              <Card.Title>Isometric Bedroom</Card.Title>
-            </Card>
-          </Col>
+          
         </Row>
+        
         <h2>Aseprite</h2>
         <Row>
           <Col>

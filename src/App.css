@@ -86,7 +86,8 @@ ul {
   background: none;
   border: none;
   height: 500px;
-  margin: 1em;
+  width: 500px;
+  margin: auto;
 }
 
 .web-img {
@@ -94,6 +95,10 @@ ul {
  height: 275px;
  margin: auto;
  margin-top: 1em;
+}
+
+.web-title {
+  border-bottom: 1px solid black;
 }
 
 .project-link {
@@ -104,11 +109,18 @@ ul {
 
 /* 3d page */
 
+h2 {
+  border-bottom: 1px solid black;
+  width: 500px;
+  margin: auto;
+}
+
 .threed-card.card {
   background: none;
   border: none;
   height: auto;
-  margin: 1em;
+  margin: auto;
+  padding: 15px;
 }
 
 .iso {
@@ -127,6 +139,7 @@ ul {
 .card-title {
   padding: 5px;
   margin-top: 5px;
+  font-size: x-large;
 }
 
 .gif {
