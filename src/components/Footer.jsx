@@ -4,7 +4,7 @@ import { Container, Nav } from "react-bootstrap";
 function Footer() {
   return (
     <>
-      <Container>
+      <Container style={{marginTop: "5px"}}>
         <Nav className="d-flex align-items-center justify-content-center">
           <Nav.Link
             className="footer-icon"
@@ -31,7 +31,7 @@ function Footer() {
           <Nav.Link
             className="footer-icon"
             target="_blank"
-            href="https://docs.google.com/document/d/1JIaw8u_5AKz1DxoVVX4aDPMrclz10sqJNAM1qPkprvY/edit?usp=sharing"
+            href="/images/Resume.2024.pdf"
           >
             <i className="fa-solid fa-file"></i>
           </Nav.Link>
