@@ -51,13 +51,13 @@ function WebPage() {
               <Card.Text>HTML | CSS | Javascript</Card.Text>
               <Card.Text>
                 <a
-                  href="https://github.com/samanthagard13/To-Do"
+                  href="https://github.com/samanthagard13/Calculator"
                   target="_blank"
                 >
                   <i className="fab fa-github"></i>
                 </a>
                 <a
-                  href="https://to-do-drab-chi.vercel.app/"
+                  href="https://mini-calculator-seven.vercel.app/"
                   target="_blank"
                   className="project-link"
                 >
