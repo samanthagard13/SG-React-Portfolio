@@ -46,7 +46,7 @@ function NavBar() {
                 <Nav.Link
                   className="nav-btn"
                   target="_blank"
-                  href="/images/Resume.2024.pdf"
+                  href="/images/SG.Resume.pdf"
                 >
                   <i className="fa-solid fa-file"></i> Resume
                 </Nav.Link>
