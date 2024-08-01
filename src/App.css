@@ -110,11 +110,11 @@ p {
   background-color: white;
   border: none;
   box-shadow: 8px 8px 15px rgb(102, 102, 102);
-  height: 620px;
-  width: 475px;
+  height: 650px;
+  width: 495px;
   margin: auto;
   margin-bottom: 3em;
-  padding: 2em;
+  padding: 3em;
 }
 
 .web-img {
@@ -140,6 +140,11 @@ p {
 
 .project-link:hover {
   box-shadow: 5px 5px 10px rgb(102, 102, 102);
+}
+
+.phone {
+  height: 320px;
+  width: auto;
 }
 
 /*  */
@@ -270,8 +275,8 @@ h2 {
   }
 
   .web-card {
-    width: 380px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
   }
 
   .web-img {
