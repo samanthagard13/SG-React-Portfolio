@@ -36,7 +36,7 @@ function WebPage() {
           
           <Col xl={6} lg={6} md={6} sm={12}>
             <Card className="web-card">
-              <Card.Img src="/images/HC-mobile.png" className="phone"/>
+              <Card.Img src="/images/cravings.png" className="web-img"/>
               <Card.Title className="web-title">Handmade Cravings</Card.Title>
               <Card.Text>
                 Recipe blog (in progress)              
