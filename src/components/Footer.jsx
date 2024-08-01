@@ -4,7 +4,7 @@ import { Container, Nav } from "react-bootstrap";
 function Footer() {
   return (
     <>
-      <Container style={{marginTop: "5px"}}>
+      <Container className="footer-container">
         <Nav className="d-flex align-items-center justify-content-center">
           <Nav.Link
             className="footer-icon"

@@ -10,8 +10,8 @@ function NavBar() {
   return (
     <div>
       <Navbar expand="lg">
-        <Container fluid>
-          <Navbar.Brand style={{ marginLeft: "1em" }}>
+        <Container>
+          <Navbar.Brand style={{ marginLeft: "2em" }}>
             <Link to="/">
               <img
                 src="./images/SamanthaG-purple.png"
@@ -29,26 +29,20 @@ function NavBar() {
           {showOffcanvas ? null : (
             <Navbar.Collapse className="justify-content-end">
               <Nav className="mr-auto">
-                <Nav.Link
-                  className="nav-btn"
-                  target="_blank"
-                  href="https://github.com/samanthagard13"
-                >
-                  <i className="fab fa-github"></i> GitHub
+                <Nav.Link className="nav-btn">
+                  <Link className="link" to="/about">About</Link>
+                </Nav.Link>
+                <Nav.Link  className="nav-btn">
+                  <Link className="link" to="/web">
+                    Portfolio
+                  </Link>
                 </Nav.Link>
                 <Nav.Link
                   className="nav-btn"
                   target="_blank"
-                  href="https://www.linkedin.com/in/samantha-gard-47599b269"
+                  href="mailto:samantha.gard13@gmail.com"
                 >
-                  <i className="fab fa-linkedin"></i> LinkedIn
-                </Nav.Link>
-                <Nav.Link
-                  className="nav-btn"
-                  target="_blank"
-                  href="/images/SG.Resume.pdf"
-                >
-                  <i className="fa-solid fa-file"></i> Resume
+                  Contact
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
@@ -64,39 +58,21 @@ function NavBar() {
         <Offcanvas.Header closeButton></Offcanvas.Header>
         <Offcanvas.Body>
           <Nav className="flex-column">
-            <Nav.Link
-              className="nav-btn"
-              target="_blank"
-              href="https://github.com/samanthagard13"
-            >
-              <i className="fab fa-github"></i> GitHub
-            </Nav.Link>
-            <Nav.Link
-              className="nav-btn"
-              target="_blank"
-              href="https://www.linkedin.com/in/samantha-gard-47599b269"
-            >
-              <i className="fab fa-linkedin"></i> LinkedIn
-            </Nav.Link>
-            <Nav.Link
-              className="nav-btn"
-              target="_blank"
-              href="/images/Resume.2024.pdf"
-            >
-              <i className="fa-solid fa-file"></i> Resume
-            </Nav.Link>
-            <Nav.Link>
-              <Link to="/web">Web Development</Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link to="/threed">Digital Creations</Link>
-            </Nav.Link>
-            {/* <Nav.Link>
-              <Link to="/contact">Contact Me</Link>
-            </Nav.Link> */}
-            <Nav.Link>
-              <Link to="/about">About Me</Link>
-            </Nav.Link>
+          <Nav.Link className="nav-btn-side">
+                  <Link className="link" to="/about">About</Link>
+                </Nav.Link>
+                <Nav.Link  className="nav-btn-side">
+                  <Link className="link" to="/web">
+                    Portfolio
+                  </Link>
+                </Nav.Link>
+                <Nav.Link
+                  className="nav-btn-side"
+                  target="_blank"
+                  href="mailto:samantha.gard13@gmail.com"
+                >
+                  Contact
+                </Nav.Link>
           </Nav>
         </Offcanvas.Body>
       </Offcanvas>

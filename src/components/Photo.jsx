@@ -5,8 +5,8 @@ import { Image } from 'react-bootstrap';
 
 function Photo() {
     return (
-        <div className='m-4 p-2'>
-            <Image src="/images/SG-square.jpg" roundedCircle/>
+        <div >
+            <Image src="/images/polaroid.png" className="photo"/>
         </div>
     );
 }

@@ -16,37 +16,37 @@ function Homepage() {
   return (
     <>
       <NavBar />
-      <Container  fluid>
-        
-        <Row className="m-2">
-          <Col xs={12} md={6} lg={3} className="d-flex align-items-center justify-content-center">
+      <Container fluid>
+        <Row className="mx-auto mt-2 mb-2 page">
+          <Col
+            xs={12}
+            md={12}
+            lg={5}
+            className="d-flex align-items-center justify-content-center"
+          >
             <Photo />
-            
           </Col>
-          <Col className="d-flex align-items-center justify-content-center">
-          <Blurb xs={12} lg={3}/>
-          </Col>
-          <Col xs={12} md={12} lg={6} className="d-flex align-items-center justify-content-center hover">
-            <AboutBtn/>
-          </Col>
-        </Row>
 
-        <Row>
-          <Col xs={12} md={6} lg={6} className="d-flex align-items-center justify-content-center mt-4">
-            <WebBtn />
+          <Col
+            xs={12}
+            md={12}
+            lg={7}
+            className="d-flex flex-column align-items-center justify-content-center blurb-card"
+          >
+            <Blurb />
+            <Row className="mx-auto">
+              <Col className="d-flex align-items-center justify-content-center">
+                <WebBtn />
+              </Col>
+              <Col className="d-flex align-items-center justify-content-center">
+                <ThreeDBtn />
+              </Col>
+            </Row>
           </Col>
-          <Col xs={12} md={6} lg={6} className="d-flex align-items-center justify-content-center mt-4">
-            <ThreeDBtn/>
-          </Col>
-          
         </Row>
-        {/* <Container className="mt-4">
-        <Contact/>
-        </Container> */}
-        
+        <div className="m-5"></div>
+        <Footer/>
       </Container>
-
-      <Footer/>
       
     </>
   );

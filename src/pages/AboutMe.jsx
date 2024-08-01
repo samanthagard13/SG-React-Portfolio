@@ -2,54 +2,57 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Footer from "../components/Footer";
-import Skills from "../components/Skills";
 
 function AboutMe() {
   return (
     <>
       <NavBar />
-      <Container style={{ marginTop: "2em" }} className="text-center" fluid>
-        <Row>
-          <Col xl={6}>
-            <Image src="/images/IMG_3577.jpg" className="about-pic" rounded />
-          </Col>
-          <Col xl={6}>
-            <p style={{ margin: "2em", padding: "2em" }} className="about-p">
-              As an enthusiastic and newly certified IT professional with a Full
-              Stack Coding Certificate from the University of North Carolina, I
-              am eager to transition into the dynamic world of technology and
-              software development. My journey has honed critical skills such as
-              problem-solving, teamwork, adaptability, and customer service, all
-              of which are vital in the tech industry. With a strong foundation
-              in both front-end and back-end technologies, I aim to blend my
-              passion for design and art with the innovative realm of coding and
-              technology. My goal is to contribute creatively and technically to
-              projects, leveraging my skills to provide effective and
-              user-centric solutions in the ever-evolving IT landscape.
+      <Container className="text-center" fluid>
+
+      <Image src="/images/hey.png" className="mt-3 mb-3" />
+
+        <Row className="mx-auto page">
+          <Col
+            xs={12}
+            md={12}
+            lg={6}
+          >
+            <p className="about-p">
+              With a Full Stack Coding Certificate from the University of North
+              Carolina, I’ve honed strong skills in problem-solving, teamwork,
+              and adaptability, all of which are crucial in tech. My background
+              spans both front-end and back-end technologies, and I’m passionate
+              about blending design and art with coding. I’m focused on creating
+              innovative and user-friendly solutions and eager to make a
+              meaningful impact in the continuously changing world of tech.
             </p>
+          </Col>
+
+          <Col
+            xs={12}
+            md={12}
+            lg={5}
+          >
+            <div>
+              <h2>Technical Skills</h2>
+              <p className="p-4">
+                HTML | CSS | JavaScript | Handlebars | Bootstrap | API | MySQL |
+                Express | jQuery | Node.js | React
+              </p>
+
+              <h2>Proficient In</h2>
+              <p className="p-4">
+                GitHub | Git | Figma | Canva | Shopify | Blender | Godot |
+                Aseprite
+              </p>
+            </div>
           </Col>
         </Row>
-        <Row style={{ marginTop: "2em" }}>
-          <Col xl={6}>
-            <h2>Technical Skills</h2>
 
-            <p style={{ margin: "2em", padding: "1em" }}>
-              HTML | CSS | JavaScript | Handlebars | Bootstrap | API | MySql |
-              Express | jQuery | Node.js | React{" "}
-            </p>
-          </Col>
-          <Col xl={6}>
-            <h2>Proficient In</h2>
-
-            <p style={{ margin: "2em", padding: "1em" }}>
-              Github | Git | Figma | Canva | Shopify | Blender | Godot |
-              Aseprite
-            </p>
-          </Col>
-        </Row>
-
-        <Footer />
+        <Footer/>
       </Container>
+      
+      
     </>
   );
 }

@@ -7,11 +7,11 @@ function WebPage() {
   return (
     <>
       <NavBar />
-
       <Container className="text-center" fluid>
-        <Image src="/images/webpage.png" />
 
-        <Row>
+        <Image src="/images/webpage.png" className="mt-3 mb-3" />
+
+        <Row className="mx-auto">
           <Col xl={6} lg={12}>
             <Card className="web-card">
               <Card.Img src="/images/todo.png" className="web-img" />
@@ -123,7 +123,7 @@ function WebPage() {
             </Card>
           </Col>
 
-          <Col xl={6} lg={12}>
+          {/* <Col xl={6} lg={12}>
             <Card className="web-card">
               <Card.Img src="/images/react-example.png" className="web-img" />
               <Card.Title className="web-title">React Portfolio</Card.Title>
@@ -175,7 +175,7 @@ function WebPage() {
                 </a>
               </Card.Text>
             </Card>
-          </Col>
+          </Col> */}
         </Row>
 
         <Footer />
