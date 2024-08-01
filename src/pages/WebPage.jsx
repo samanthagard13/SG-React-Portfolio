@@ -8,39 +8,32 @@ function WebPage() {
     <>
       <NavBar />
       <Container className="text-center" fluid>
-
-        <Image src="/images/webpage.png" className="mt-3 mb-3" />
+        <Image src="/images/webpage.png" className="mt-3 mb-4" />
 
         <Row className="mx-auto">
-          <Col xl={6} lg={12}>
+          <Col xl={6} lg={6} md={6} sm={12}>
             <Card className="web-card">
               <Card.Img src="/images/todo.png" className="web-img" />
               <Card.Title className="web-title">To Do List</Card.Title>
               <Card.Text>
-                Simple to do list with local storage and the ability to choose
-                from four color modes.
+                To do list with local storage and the ability to choose from
+                four color modes.
               </Card.Text>
               <Card.Text>
                 HTML | CSS | Bootstrap | Node.js | jQuery | Express
               </Card.Text>
               <Card.Text>
                 <a
-                  href="https://github.com/samanthagard13/To-Do"
-                  target="_blank"
-                >
-                  <i className="fab fa-github"></i>
-                </a>
-                <a
                   href="https://to-do-drab-chi.vercel.app/"
                   target="_blank"
                   className="project-link"
                 >
-                  Deployed Application
+                  Try It Out
                 </a>
               </Card.Text>
             </Card>
           </Col>
-          <Col xl={6} lg={12}>
+          <Col xl={6} lg={6} md={6} sm={12}>
             <Card className="web-card">
               <Card.Img src="/images/calc-screenshot.png" className="web-img" />
               <Card.Title className="web-title">Mini Calculator</Card.Title>
@@ -51,27 +44,18 @@ function WebPage() {
               <Card.Text>HTML | CSS | Javascript</Card.Text>
               <Card.Text>
                 <a
-                  href="https://github.com/samanthagard13/Calculator"
-                  target="_blank"
-                >
-                  <i className="fab fa-github"></i>
-                </a>
-                <a
                   href="https://mini-calculator-seven.vercel.app/"
                   target="_blank"
                   className="project-link"
                 >
-                  Deployed Application
+                  Try It Out
                 </a>
               </Card.Text>
             </Card>
           </Col>
-          <Col xl={6} lg={12}>
+          <Col xl={6} lg={6} md={6} sm={12}>
             <Card className="web-card">
-              <Card.Img
-                src="/images/Headline-screenshot.png"
-                className="web-img"
-              />
+              <Card.Img src="/images/Headline-screenshot.png" className="web-img" />
               <Card.Title className="web-title">Headline Report</Card.Title>
               <Card.Text>
                 Group project created to search and save news articles.
@@ -81,22 +65,16 @@ function WebPage() {
               </Card.Text>
               <Card.Text>
                 <a
-                  href="https://github.com/eddyK15501/headline-report"
-                  target="_blank"
-                >
-                  <i className="fab fa-github"></i>
-                </a>
-                <a
                   href="https://eddyk15501-headline-report-3d1644b4d160.herokuapp.com/"
                   target="_blank"
                   className="project-link"
                 >
-                  Deployed Application
+                  Try It Out
                 </a>
               </Card.Text>
             </Card>
           </Col>
-          <Col xl={6} lg={12}>
+          <Col xl={6} lg={6} md={6} sm={12}>
             <Card className="web-card">
               <Card.Img src="/images/shaker-square.png" className="web-img" />
               <Card.Title className="web-title">Shaker</Card.Title>
@@ -107,75 +85,15 @@ function WebPage() {
               <Card.Text>HTML | CSS | Bootstrap | React | restAPI</Card.Text>
               <Card.Text>
                 <a
-                  href="https://github.com/samanthagard13/Shaker"
-                  target="_blank"
-                >
-                  <i className="fab fa-github"></i>
-                </a>
-                <a
                   href="https://shaker-seven.vercel.app/"
                   target="_blank"
                   className="project-link"
                 >
-                  Deployed Application
+                  Try It Out
                 </a>
               </Card.Text>
             </Card>
           </Col>
-
-          {/* <Col xl={6} lg={12}>
-            <Card className="web-card">
-              <Card.Img src="/images/react-example.png" className="web-img" />
-              <Card.Title className="web-title">React Portfolio</Card.Title>
-              <Card.Text>Jane Doe portfolio example</Card.Text>
-              <Card.Text>HTML | CSS | Bootstrap | React</Card.Text>
-              <Card.Text>
-                <a
-                  href="https://github.com/samanthagard13/example-portfolio"
-                  target="_blank"
-                >
-                  <i className="fab fa-github"></i>
-                </a>
-                <a
-                  href="https://ephemeral-nasturtium-e60c94.netlify.app/"
-                  target="_blank"
-                  className="project-link"
-                >
-                  Deployed Application
-                </a>
-              </Card.Text>
-            </Card>
-          </Col>
-
-          <Col xl={6} lg={12}>
-            <Card className="web-card">
-              <Card.Img src="/images/tech-screenshot.png" className="web-img" />
-              <Card.Title className="web-title">Tech Blog</Card.Title>
-              <Card.Text>
-                Blog page where you can create an account to post or comment on
-                other blog posts
-              </Card.Text>
-              <Card.Text>
-                HTML | CSS | Express | Handlebars | jQuery | mySQL | Sequelize
-              </Card.Text>
-              <Card.Text>
-                {" "}
-                <a
-                  href="https://github.com/samanthagard13/tech-blog?tab=readme-ov-file"
-                  target="_blank"
-                >
-                  <i className="fab fa-github"></i>
-                </a>
-                <a
-                  href="https://vast-oasis-81942-69906b12dced.herokuapp.com/"
-                  target="_blank"
-                  className="project-link"
-                >
-                  Deployed Application
-                </a>
-              </Card.Text>
-            </Card>
-          </Col> */}
         </Row>
 
         <Footer />

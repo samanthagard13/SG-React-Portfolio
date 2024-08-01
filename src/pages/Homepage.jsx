@@ -38,9 +38,9 @@ function Homepage() {
               <Col className="d-flex align-items-center justify-content-center">
                 <WebBtn />
               </Col>
-              <Col className="d-flex align-items-center justify-content-center">
+              {/* <Col className="d-flex align-items-center justify-content-center">
                 <ThreeDBtn />
-              </Col>
+              </Col> */}
             </Row>
           </Col>
         </Row>

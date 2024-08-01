@@ -1,6 +1,4 @@
 html, body {
-  /* height: 100%;
-  width: auto; */
   margin: 0;
   place-items: center;
   min-width: 320px;
@@ -49,7 +47,18 @@ background-color: rgb(253, 253, 253);
   color: black;
 }
 
+.navbar-toggler {
+  border: none;
+}
 
+.side-nav-icon {
+  color: #000000;
+  font-size: large;
+}
+
+.offcanvas-body {
+  font-size: large;
+}
 
 /* Homepage */
 
@@ -98,26 +107,39 @@ p {
 /* Web Dev */
 
 .web-card {
-  background: none;
+  background-color: white;
   border: none;
-  height: 500px;
-  width: 500px;
+  box-shadow: 8px 8px 15px rgb(102, 102, 102);
+  height: 620px;
+  width: 475px;
   margin: auto;
+  margin-bottom: 3em;
+  padding: 2em;
 }
 
 .web-img {
- width: 400px;
- height: 275px;
+ width: 375px;
+ height: 250px;
  margin: auto;
- margin-top: 1em;
 }
 
 .web-title {
   border-bottom: 1px solid black;
+  width: 10em;
+  margin: auto;
 }
 
+
 .project-link {
-  border-bottom: 1px solid black;
+  color: white;
+  text-decoration: none;
+  background-color: #62428a;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.project-link:hover {
+  box-shadow: 5px 5px 10px rgb(102, 102, 102);
 }
 
 /*  */
@@ -174,6 +196,10 @@ h2 {
   margin: 4em;
 }
 
+.about-p {
+  margin: 2em
+}
+
 /*  */
 
 /* Contact Page */
@@ -220,7 +246,7 @@ h2 {
   font-size: xx-large;
   padding-left: 2em;
   padding-right: 2em;
-  color: rgb(68, 68, 68);
+  color: #444444;
 }
 
 .footer-icon:hover {
@@ -235,16 +261,39 @@ h2 {
     width: 250px;
   }
 
+  .navbar {
+    height: 7em;
+  }
+
   .photo {
     margin-top: 30px;
   }
 
-  .footer-icon {
-    font-size: larger;
+  .web-card {
+    width: 380px;
+    height: 400px;
   }
 
-  .navbar {
-    height: 7em;
+  .web-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .web-title {
+    font-size: medium;
+  }
+
+  .web-card p {
+    font-size: medium;
+  }
+
+  .project-link {
+    font-size: small;
+    margin: 0;
+  }
+
+  .footer-icon {
+    font-size: larger;
   }
 
   .footer-container {
@@ -284,6 +333,14 @@ h2 {
     padding: 0;
  }
  
+ .web-card {
+  width: 300px;
+ }
+
+ .web-img {
+  width: 150px;
+  height: 125px;
+ }
 
  .footer-container {
   margin-top: 10em;

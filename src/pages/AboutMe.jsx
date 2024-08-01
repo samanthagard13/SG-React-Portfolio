@@ -9,7 +9,7 @@ function AboutMe() {
       <NavBar />
       <Container className="text-center" fluid>
 
-      <Image src="/images/hey.png" className="mt-3 mb-3" />
+      <Image src="/images/hey.png" className="mt-3 mb-4" />
 
         <Row className="mx-auto page">
           <Col
@@ -49,7 +49,7 @@ function AboutMe() {
           </Col>
         </Row>
 
-        <Footer/>
+        
       </Container>
       
       
