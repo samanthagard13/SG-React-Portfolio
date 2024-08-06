@@ -110,23 +110,26 @@ p {
   background-color: white;
   border: none;
   box-shadow: 8px 8px 15px rgb(102, 102, 102);
-  height: 650px;
-  width: 495px;
+  height: 550px;
+  width: 490px;
   margin: auto;
   margin-bottom: 3em;
-  padding: 3em;
+  padding: 2em;
 }
 
 .web-img {
  width: 375px;
  height: 250px;
- margin: auto;
+ margin-top: 1em;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 .web-title {
   border-bottom: 1px solid black;
   width: 10em;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -134,7 +137,7 @@ p {
   color: white;
   text-decoration: none;
   background-color: #62428a;
-  padding: 7px;
+  padding: 10px;
   border-radius: 5px;
 }
 
@@ -181,7 +184,7 @@ h2 {
 
 .card-title {
   padding: 5px;
-  margin-top: 5px;
+  margin-top: 2px;
   font-size: x-large;
 }
 

@@ -20,9 +20,6 @@ function WebPage() {
                 four color modes.
               </Card.Text>
               <Card.Text>
-                HTML | CSS | Bootstrap | Node.js | jQuery | Express
-              </Card.Text>
-              <Card.Text>
                 <a
                   href="https://to-do-drab-chi.vercel.app/"
                   target="_blank"
@@ -42,15 +39,19 @@ function WebPage() {
                 Recipe blog (in progress)              
               </Card.Text>
               <Card.Text>
-                HTML | CSS | Node.js | Express | Graphql | Mongoose
-              </Card.Text>
-              <Card.Text>
                 <a
                   href="https://handmade-cravings.vercel.app/"
                   target="_blank"
-                  className="project-link"
+                  className="project-link m-2"
                 >
                   Try It Out
+                </a>
+                <a
+                  href="https://www.figma.com/proto/XJiILwH2Ng9clABtUFoODB/Untitled?node-id=0-1&t=CSzUnzerWEkQSBsV-1"
+                  target="_blank"
+                  className="project-link"
+                >
+                  Figma Prototype
                 </a>
               </Card.Text>
             </Card>
@@ -63,7 +64,6 @@ function WebPage() {
                 Cocktail recipes. Make an
                 account to save recipes. (in progress)
               </Card.Text>
-              <Card.Text>HTML | CSS | Bootstrap | React | restAPI</Card.Text>
               <Card.Text>
                 <a
                   href="https://shaker-seven.vercel.app/"
@@ -83,7 +83,6 @@ function WebPage() {
                 Simple calculator, you can also save any results in a list below
                 the calculator.
               </Card.Text>
-              <Card.Text>HTML | CSS | Javascript</Card.Text>
               <Card.Text>
                 <a
                   href="https://mini-calculator-seven.vercel.app/"
