@@ -42,7 +42,7 @@ function WebPage() {
                 <a
                   href="https://handmade-cravings.vercel.app/"
                   target="_blank"
-                  className="project-link m-2"
+                  className="project-link"
                 >
                   Try It Out
                 </a>
@@ -58,7 +58,7 @@ function WebPage() {
           </Col>
           <Col xl={6} lg={6} md={6} sm={12}>
             <Card className="web-card">
-              <Card.Img src="/images/shaker-mobile.png" className="phone" />
+              <Card.Img src="/images/figma-shaker.png" className="phone" />
               <Card.Title className="web-title">Shaker</Card.Title>
               <Card.Text>
                 Cocktail recipes. Make an
@@ -71,6 +71,13 @@ function WebPage() {
                   className="project-link"
                 >
                   Try It Out
+                </a>
+                <a
+                  href="https://www.figma.com/proto/WWMOK6maj2kvbS1ulTLTnG/Shaker?node-id=0-1&t=fdRffDjalSo6aXOm-1"
+                  target="_blank"
+                  className="project-link"
+                >
+                  Figma Prototype
                 </a>
               </Card.Text>
             </Card>
