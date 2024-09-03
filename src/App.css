@@ -346,6 +346,7 @@ h2 {
  
  .web-card {
   width: 300px;
+  height: auto;
  }
 
  .web-img {
