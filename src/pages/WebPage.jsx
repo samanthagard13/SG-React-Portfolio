@@ -36,7 +36,7 @@ function WebPage() {
               <Card.Img src="/images/cravings.png" className="web-img"/>
               <Card.Title className="web-title">Handmade Cravings</Card.Title>
               <Card.Text>
-                Recipe blog (in progress)              
+                Recipe blog - Front end completed, back end in development.             
               </Card.Text>
               <Card.Text>
                 <a
@@ -61,8 +61,7 @@ function WebPage() {
               <Card.Img src="/images/figma-shaker.png" className="phone" />
               <Card.Title className="web-title">Shaker</Card.Title>
               <Card.Text>
-                Cocktail recipes. Make an
-                account to save recipes. (in progress)
+                Cocktail recipes app - Front end completed, back end in development.  
               </Card.Text>
               <Card.Text>
                 <a
