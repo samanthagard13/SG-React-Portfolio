@@ -6,7 +6,7 @@ function ThreeDBtn() {
   return (
     <>
       <Link to="/threed">
-      <button type="button" class="btn">Digital Art</button>
+      <button type="button" className="btn">Digital Art</button>
       </Link>
     </>
   );

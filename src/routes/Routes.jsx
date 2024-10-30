@@ -9,11 +9,11 @@ import ThreeDPage from '../pages/ThreeDPage';
 const NavRoutes = () => {
   return (
     <Routes>
-      <Route path='/' Component={Homepage} />
-      <Route path="/about" Component={AboutMe} />
-      <Route path="/contact" Component={ContactPage} />
-      <Route path="/web" Component={WebPage}/>
-      <Route path="/threed" Component={ThreeDPage}/>
+      <Route path="/" element={<Homepage />} />
+      <Route path="/about" element={<AboutMe />} />
+      <Route path="/contact" element={<ContactPage />} />
+      <Route path="/web" element={<WebPage />} />
+      <Route path="/threed" element={<ThreeDPage />} />
     </Routes>
   );
 };

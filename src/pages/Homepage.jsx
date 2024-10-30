@@ -16,8 +16,8 @@ function Homepage() {
   return (
     <>
       <NavBar />
-      <Container fluid>
-        <Row className="mx-auto mt-2 mb-2 page">
+      <Container className="text-center" fluid>
+        <Row className="mx-auto m-4 p-4 page">
           <Col
             xs={12}
             md={12}
@@ -38,9 +38,6 @@ function Homepage() {
               <Col className="d-flex align-items-center justify-content-center">
                 <WebBtn />
               </Col>
-              {/* <Col className="d-flex align-items-center justify-content-center">
-                <ThreeDBtn />
-              </Col> */}
             </Row>
           </Col>
         </Row>

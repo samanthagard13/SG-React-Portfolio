@@ -6,7 +6,7 @@ function WebBtn() {
     return (
         <>
         <Link to="/web">
-        <button type="button" class="btn">Portfolio</button>
+        <button type="button" className="btn">Portfolio</button>
         </Link>
         </>
     );

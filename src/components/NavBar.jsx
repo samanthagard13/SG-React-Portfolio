@@ -29,20 +29,14 @@ function NavBar() {
           {showOffcanvas ? null : (
             <Navbar.Collapse className="justify-content-end">
               <Nav className="mr-auto">
-                <Nav.Link className="nav-btn">
-                  <Link className="link" to="/about">
-                    About
-                  </Link>
+                <Nav.Link as={Link} to="/about" className="nav-btn">
+                  About
                 </Nav.Link>
-                {/* <Nav.Link className="nav-btn">
-                  <Link className="link" to="/web">
-                    Portfolio
-                  </Link>
+                {/* <Nav.Link as={Link} to="/web" className="nav-btn">
+                  Portfolio
                 </Nav.Link>
-                <Nav.Link className="nav-btn">
-                  <Link className="link" to="/threed">
-                    Art
-                  </Link>
+                <Nav.Link as={Link} to="/threed" className="nav-btn">
+                  Art
                 </Nav.Link> */}
                 <Nav.Link
                   className="nav-btn"
@@ -62,23 +56,17 @@ function NavBar() {
         onHide={handleOffcanvasToggle}
         placement="end"
       >
-        <Offcanvas.Header closeButton></Offcanvas.Header>
+        <Offcanvas.Header closeButton />
         <Offcanvas.Body>
           <Nav className="flex-column">
-            <Nav.Link className="nav-btn-side">
-              <Link className="link" to="/about">
-                About
-              </Link>
+            <Nav.Link as={Link} to="/about" className="nav-btn-side">
+              About
             </Nav.Link>
-            <Nav.Link className="nav-btn-side">
-              <Link className="link" to="/web">
-                Portfolio
-              </Link>
+            <Nav.Link as={Link} to="/web" className="nav-btn-side">
+              Portfolio
             </Nav.Link>
-            {/* <Nav.Link className="nav-btn-side">
-              <Link className="link" to="/threed">
-                Art
-              </Link>
+            {/* <Nav.Link as={Link} to="/threed" className="nav-btn-side">
+              Art
             </Nav.Link> */}
             <Nav.Link
               className="nav-btn-side"
@@ -88,10 +76,10 @@ function NavBar() {
               Contact
             </Nav.Link>
             <Nav.Link>
-              <Link className="side-nav-icon">
+              <Link className="side-nav-icon" to="#">
                 <i className="fab fa-github"></i>
               </Link>
-              <Link className="m-4 side-nav-icon">
+              <Link className="m-4 side-nav-icon" to="#">
                 <i className="fab fa-linkedin"></i>
               </Link>
             </Nav.Link>

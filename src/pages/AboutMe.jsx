@@ -11,7 +11,7 @@ function AboutMe() {
 
       <Image src="/images/hey.png" className="mt-3 mb-4" />
 
-        <Row className="mx-auto page">
+        <Row className="mx-auto">
           <Col
             xs={12}
             md={12}
@@ -49,7 +49,7 @@ function AboutMe() {
           </Col>
         </Row>
 
-        
+        <Footer/>
       </Container>
       
       
